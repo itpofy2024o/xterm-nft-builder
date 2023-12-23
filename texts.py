@@ -5,8 +5,8 @@ import os
 meta = sys.argv[1]
 start = int(sys.argv[2])
 end = int(sys.argv[3])
-name = "Exo"
-sym = "E"
+name = "KO"
+sym = "K"
 collection = ""
 family = ""
 url = ""

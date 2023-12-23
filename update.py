@@ -14,7 +14,7 @@ ture = sys.argv[9]
 
 span = end-start+1
 
-c = 0 # 92
+c = 0
 
 while c != span:
 	j = open("{}{}.json".format(meta,start),"r")

@@ -5,8 +5,8 @@ import numpy as np
 import imageio as io
 import json
 
-timgs = sys.argv[1] # item
-back = sys.argv[2] # img
+timgs = sys.argv[1]
+back = sys.argv[2]
 out = sys.argv[3]
 jsons = sys.argv[4]
 ox = int(sys.argv[5])
@@ -17,7 +17,7 @@ bd = os.listdir(back)
 td = os.listdir(timgs)
 
 for n in range(len(bd)):
-	chosen_item_index = np.random.randint(len(td)) # 0 - 3
+	chosen_item_index = np.random.randint(len(td))
 	character = pmg.open(back+bd[n])
 	item = pmg.open(timgs+td[chosen_item_index])
 	character.paste(item,(ox,oy),mask=item)

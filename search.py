@@ -9,7 +9,7 @@ value = sys.argv[4]
 
 span = 28000
 
-c = 0 # 92
+c = 0
 
 while c != span:
 	j = open("{}{}.json".format(meta,c),"r")

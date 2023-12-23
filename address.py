@@ -8,7 +8,7 @@ end = int(sys.argv[3])
 
 span = end-start+1
 
-c = 0 # 92
+c = 0
 
 while c != span:
 	j = open("./assets/jsons/{}.json".format(start),"r")
