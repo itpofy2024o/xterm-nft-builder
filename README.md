@@ -1,6 +1,6 @@
 # terminal-nft-generator
  
-time go run genimg.go 360 /Users/abc/Desktop/def/terminal-nft-generator/layers/ 350 350 GUI GeorgiaUnionI 666 farttoomuchisawarning https://github.com/ROSW1123 Judy Judies 0xFEc795EC001d1B0E76aaF85589dA52Ce0a4daafe 5
+time go run genimg.go 360 /Users/abc/Desktop/def/terminal-nft-generator/layers/ 350 350 GUI GeorgiaUnionI 666 farttoomuchisawarning https://github.com Judy Judies 0xFEc795EC001d1B0E76aaF85589dA52Ce0a4daafe 5
 
 - time to measure time
 - go run 
