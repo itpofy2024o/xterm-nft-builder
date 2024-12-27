@@ -19,6 +19,8 @@ time go run genimg.go 360 /Users/abc/Desktop/def/terminal-nft-generator/layers/ 
 - address
 - number of layers
 
+- if 4 layers, called: A B C D, then enter if followed 3d order: /A/, /B/, /C/, and /D/
+
 deployed address: 0x09b52851735d76615BcA080e8c7ed64F561D54c3on sepolia test net
 
 deployed with ThirdWeb
